@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "San Francisco";
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+.searchInput{
+    margin-left: 10px;
+    width: 100%;
+}
+.h1Tag{
+    font-size: 38px;
+}
+.searchInput::placeholder{
+    color: #7a8b94;
+    font-size: 14px;
+    font-family: AvertaStd,-apple-system,BlinkMacSystemFont,sans-serif!important;
+}
+.inputContainer{
+    background-image: linear-gradient(#fff,rgb(229 244 255 / 44%));
+}
+.icon{
+    margin-top: 2px;
+}
+.inputDiv{
+    display: flex;
+    background: #fff;
+    width: 360px;
+    padding: 0px 17.8px;
+    align-items: center;
+    height: 56px;
+    margin-top: 32px;
+    border-radius: 6px;
+   
+}
+.searchBox{
+    padding-top: 72px;
+    padding-left: 72px;
+    max-width: 80%;
+    margin: auto;
+    background-image: url(https://static.uacdn.net/production/_next/static/images/goal/managegoal-test-prep-light.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-bottom: 36px;
+}
+
+.titleList{
+    padding-bottom: 12px;
+    font-size: 14px;
+    color: #7A8B94;
+}
+.sideBar{
+    height: 613.6px;
+    scroll-behavior: smooth;
+    overflow: scroll;
+    width: 272px;
+    position: sticky;
+    top: 100px;
+    cursor: pointer;
+}
+
+.imgStyle{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 20px;
+}
+.box{
+    max-width: 848px;
+    margin-bottom: 50px;
+}
+.h5Tag{
+    font-size: 14px;
+    font-weight: 100;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.navbarDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 70px;
+    height: 72px;
+    align-items: center;
+    background: #FBFCFC;
+}
+.loginbutton{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    background: hsl(160, 92%, 39%);
+    color: #fff;
+}
+.course{
+    background: #fff;
+    padding: 24px 24px 24px 24px;
+    margin-top: 16px;
+    box-shadow: 0px 16px 32px rgb(233 238 242 / 40%);
+    border-radius: 8px;
+    max-width: 272px;
+    cursor: pointer;
+}
+.linkP{
+    color: #3C4852;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 550;
+    width: 224px;
+    margin: 0px;
+}
+.topics{
+    max-width: 75%;
+    margin: 72px auto;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    flex-flow: row;
+}
+.inputBox{
+    outline: none;
+    border: none;
+}

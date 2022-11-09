@@ -1,0 +1,30 @@
+.title{
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    margin-left: 20px;
+    color: #3C4852;
+}
+
+.details{
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    margin-left: 20px;
+    color: #3C4852;
+    width: 75%
+}
+
+.slidermain{
+
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+.sliderCard img{
+
+    width: 400px;
+}
